@@ -5,10 +5,19 @@ type ColorBoxProps = {
 };
 
 export default function ColorBox({ color }: ColorBoxProps) {
+
+
   return (
-    <div class="flex flex-col gap-2">
-      <div class="w-12 h-12" style={{ "background-color": color.id }} />
-      <div class="text-sm">{color.name}</div>
-    </div>
+    <button
+      class="w-24 h-24 rounded-xl"
+      style={{ "background-color": color.id }}
+      aria-label={`${color.name}, ${color.id}`}
+      onClick={() => copyToClipboard(color.id)}
+      title="Click to copy color code"
+    />
   );
+}
+
+function copyToClipboard(text: string) {
+  navigator.clipboard.writeText(text);
 }

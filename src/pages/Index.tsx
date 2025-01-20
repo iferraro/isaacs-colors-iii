@@ -17,8 +17,8 @@ export default function Index() {
   });
 
   return (
-    <div>
-      <h1>Isaac's Custom Colors</h1>
+    <div class="flex flex-col items-center">
+      <h1 class="text-4xl font-bold my-4">Isaac's Custom Colors</h1>
       <ColorChart colors={colors()} />
     </div>
   );
