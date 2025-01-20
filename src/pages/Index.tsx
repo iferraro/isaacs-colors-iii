@@ -21,7 +21,7 @@ export default function Index() {
       {colors().map((color) => (
         <div>
           <h2>{color.name}</h2>
-          <div style={{ "background-color": color.id }} />
+          <div class="w-12 h-12 bg-black" /*style={{ width: "100px", height: "100px", "background-color": color.id }} *//>
         </div>
       ))}
     </div>
