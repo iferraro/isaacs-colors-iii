@@ -10,7 +10,6 @@ export default function Index() {
       const response = await fetch("/api/colors");
       const allColors = (await response.json()) as Color[];
       setColors(allColors);
-      console.log("Fetched colors:", allColors);
     } catch (error) {
       console.error("Failed to fetch colors:", error);
     }

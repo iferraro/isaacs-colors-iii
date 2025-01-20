@@ -5,8 +5,6 @@ type ColorBoxProps = {
 };
 
 export default function ColorBox({ color }: ColorBoxProps) {
-
-
   return (
     <button
       class="w-24 h-24 rounded-xl"
