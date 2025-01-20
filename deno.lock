@@ -11,6 +11,7 @@
     "npm:solid-js@^1.9.3": "1.9.4_seroval@1.2.0",
     "npm:tailwindcss@3.4.17": "3.4.17_postcss@8.5.1",
     "npm:tailwindcss@^3.4.17": "3.4.17_postcss@8.5.1",
+    "npm:typescript@5.6.3": "5.6.3",
     "npm:typescript@~5.6.2": "5.6.3",
     "npm:vite-plugin-solid@^2.11.0": "2.11.0_solid-js@1.9.4__seroval@1.2.0_vite@6.0.7_@babel+core@7.26.0",
     "npm:vite@*": "6.0.7_@types+node@22.5.4",
