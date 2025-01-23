@@ -7,7 +7,7 @@ export default function Index() {
 
   onMount(async () => {
     try {
-      const response = await fetch("/api/colors");
+      const response = await fetch("/isaacs-custom-colors.json");
       const allColors = (await response.json()) as Color[];
       setColors(allColors);
     } catch (error) {
